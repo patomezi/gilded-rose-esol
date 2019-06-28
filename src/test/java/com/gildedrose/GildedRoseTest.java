@@ -31,14 +31,14 @@ public class GildedRoseTest {
             "Backstage passes to a TAFKAL80ETC concert, 14, 21\r\n" +
             "Backstage passes to a TAFKAL80ETC concert, 9, 50\r\n" +
             "Backstage passes to a TAFKAL80ETC concert, 4, 50\r\n" +
-            "Conjured Mana Cake, 2, 4\r\n" +
+            "Conjured Mana Cake, 2, 5\r\n" +
             "\r\n";
 
     @Test
     public void textExpected() {
         ByteArrayOutputStream output = new ByteArrayOutputStream();
         PrintStream out = new PrintStream(output);
-        out.println("OMGHAI!");
+        out.println("GILDEDROSE!");
 
         Item[] items = new Item[]{
                 new Item("+5 Dexterity Vest", 10, 20), //
